@@ -1,0 +1,34 @@
+{
+    "name": "edh-helpers",
+    "version": "0.0.1",
+    "description": "A set of commonly used helpers that can be shared accross projects",
+    "private": true,
+    "main": "index.js",
+    "homepage": "https://git@bitbucket.org:eoboite/edh-helpers",
+    "repository": {
+        "type": "git",
+        "url": "git+https://git@bitbucket.org:eoboite/edh-helpers.git"
+    },
+    "files": [
+        "index.js"
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "version:major": "npm version major",
+        "version:minor": "npm version minor",
+        "version:patch": "npm version patch",
+        "postversion": "git push && git push --tags"
+    },
+    "author": {
+        "name": "Eric Oboite",
+        "email": "erico@edesignhouse.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.11",
+        "valid-url": "^1.0.9"
+    }
+}
