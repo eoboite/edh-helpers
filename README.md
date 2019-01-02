@@ -10,7 +10,7 @@ npm install git+https://git@bitbucket.org:eoboite/edh-helpers.git
 ```
 
 #### Specific Version
-[Versions Available]()
+[Versions Available](https://bitbucket.org/eoboite/edh-helpers/downloads/?tab=tags)
 
 ```npm
 npm install git+https://git@bitbucket.org:eoboite/edh-helpers.git#{latest-tag-version}
