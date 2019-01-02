@@ -1,6 +1,6 @@
 {
     "name": "edh-helpers",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A set of commonly used helpers that can be shared accross projects",
     "private": true,
     "main": "index.js",
