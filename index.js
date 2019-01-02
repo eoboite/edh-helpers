@@ -22,6 +22,14 @@ const sleep = async(time) => {
  * @returns {number} - A random number converted to seconds
  */
 const randomTime = (options) => {
+    if (!_.isNil(options) && _.gt(options.min, options.max)) {
+        throw new RangeError("Min value can't be greater than max");
+    }
+
+    if (!_.isNil(options) && _.eq(options.min, options.max)) {
+        throw new RangeError("Min time can't equal Max time");
+    }
+
     const defaults = _.merge({}, { min: 5, max: 7 }, options);
     return _.random(defaults.min, defaults.max) * 1000;
 };
